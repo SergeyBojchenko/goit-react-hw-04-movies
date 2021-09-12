@@ -1,0 +1,21 @@
+.homeList,
+.castList,
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+}
+
+.movie {
+  display: flex;
+}
+
+.posterDetails {
+  display: block;
+  width: 300px;
+  margin-right: 10px;
+}
